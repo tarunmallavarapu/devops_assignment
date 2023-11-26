@@ -10,6 +10,6 @@ COPY nginx.conf /etc/nginx/sites-enabled/
 
 COPY app.py /app/app.py
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD service nginx start && python3 /app/app.py
